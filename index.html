@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App!</title>
+</head>
+
+<body>
+    <img src="./images/day/clear.jpg" alt="" class="background-image" />
+    <div class="card">
+
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Location">
+            <button type="button" placeholder="Search" class="button-search" onClick="Display()">Search</button>
+            <!-- Search Icon goes here -->
+            </button>
+        </div>
+        <div class="weather">
+            <h2 class="city">Weather in Denver</h2>
+
+            <div class="weather-stats">
+                <div class="description"></div>
+                <div class="temperature"></div>
+                <div class="humidity"></div>
+            </div>
+
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
