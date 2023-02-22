@@ -6,7 +6,7 @@ const wind = document.querySelector(".wind");
 search = document.querySelector(".search button");
 
 search.addEventListener("click", () => {
-	const api = "f368e99a40716aee94fc1d1b8a6d8913";
+	let api = process.env.api;
 	const city = document.querySelector(".search input").value;
 	const location = document.querySelector(".city");
 	console.log(location);
